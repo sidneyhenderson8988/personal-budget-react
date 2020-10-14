@@ -64,10 +64,10 @@ function HomePage() {
             </div>
     
             <div className="text-box">
-                <h3>Chart</h3>
+                {/* <h3>Chart</h3>
                 <p>
                     <canvas id="myChart" width="400" height="400"></canvas>
-                </p>
+                </p> */}
             </div>
 
         </div>

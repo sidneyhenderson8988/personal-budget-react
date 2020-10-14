@@ -13,6 +13,8 @@ import HomePage from './HomePage/HomePage'
 import Footer from './Footer/Footer'
 import AboutPage from './AboutPage/AboutPage';
 import LoginPage from './LoginPage/LoginPage';
+import ChartData from './ChartData/ChartData';
+import D3jsChart from './D3jsChart/D3jsChart';
 
 function App() {
   return (
@@ -29,10 +31,13 @@ function App() {
           </Route>
           <Route path="/">
             <HomePage></HomePage>
+            <ChartData></ChartData>
+            <D3jsChart></D3jsChart>
           </Route>
         </Switch>
       </div>
-      <Footer/>
+      
+      <Footer></Footer>
     </Router>
   );
 }
